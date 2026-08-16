@@ -4,7 +4,7 @@
    ============================================================ */
 const CONFIG = {
   recipientName: "Iyayuu",           // ganti dengan nama pasanganmu
-  senderClosing: "Yang selalu bersyukur memilikimu,",
+  senderClosing: "orang yang selalu mengagumimu,",
   senderName: "— Limii",
   letterParagraphs: [
     "Assalamu'alaikum warahmatullahi wabarakatuh lyayuu, HALOO HALOO.. EKHEM EKHEM, ada yang ulang tahun nihh yeee??🤭🤭",
