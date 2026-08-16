@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untuk Perjalanan Kita</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================================= -->
+<!-- PAGE 1 — THE DREAMY JOURNEY                                    -->
+<!-- ============================================================= -->
+<div id="page1">
+  <div class="sky-bg" id="skyBg"></div>
+  <div class="cloud-layer" id="cloudLayer">
+    <div class="parallax-layer" id="layerBg"></div>
+    <div class="parallax-layer" id="layerMid"></div>
+    <div class="parallax-layer" id="layerFg"></div>
+  </div>
+
+  <div class="journey-progress" id="journeyProgress">01 / 06</div>
+  <button class="skip-btn" id="skipBtn">Jelajahi sendiri</button>
+
+  <div class="p1-content">
+
+    <section class="hero" id="hero">
+      <div class="eyebrow">sebuah perjalanan kecil</div>
+      <h1>Ikut aku jalan-jalan<br><em>di antara awan,</em> ya?</h1>
+      <p>Ada tempat yang ingin kutunjukkan padamu — dan sesuatu yang menunggu di ujung jalan.</p>
+      <button class="start-btn" id="startBtn">Mulai perjalanan ♡</button>
+      <div class="scroll-cue"><span>atau gulir untuk jelajah sendiri</span><span class="line"></span></div>
+    </section>
+
+    <div class="journey-track" id="journeyTrack">
+      <div class="couple-stage" id="coupleStage">
+        <div class="couple" id="coupleFigure"></div>
+      </div>
+
+      <!-- memory sections are generated here by script.js from CONFIG.memories -->
+
+      <section class="gift-section" id="giftSection">
+        <div class="gift-cue" data-reveal id="giftCue1"></div>
+        <div class="gift-cue-2" id="giftCue2"></div>
+        <div class="gift-wrap" data-reveal id="giftWrap">
+          <div class="gift-glow"></div>
+          <button class="gift-btn" id="giftBtn" aria-label="Buka hadiah">
+            <svg viewBox="0 0 160 150" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="80" cy="138" rx="52" ry="8" fill="#5B5042" opacity="0.08"/>
+              <rect x="26" y="62" width="108" height="72" rx="10" fill="#F6E1E6"/>
+              <rect x="26" y="62" width="108" height="26" rx="8" fill="#EACB8E"/>
+              <rect x="70" y="62" width="20" height="72" fill="#F6C9DA"/>
+              <rect x="26" y="80" width="108" height="10" fill="#F6C9DA" opacity="0.6"/>
+              <g class="ribbon-react">
+                <path d="M80 62 C64 44 44 46 46 30 C48 16 68 20 80 40 C92 20 112 16 114 30 C116 46 96 44 80 62Z" fill="#D98FAE"/>
+                <circle cx="80" cy="38" r="7" fill="#EACB8E"/>
+              </g>
+            </svg>
+          </button>
+        </div>
+        <div class="gift-hint" data-reveal>ketuk hadiahnya</div>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+<div id="transition-overlay"><div class="burst"></div></div>
+
+<!-- ============================================================= -->
+<!-- PAGE 2 — THE BIRTHDAY SURPRISE                                 -->
+<!-- ============================================================= -->
+<div id="page2">
+  <div class="p2-light" id="p2Light"></div>
+  <div class="petal-layer" id="petalLayer"></div>
+
+  <div class="p2-content" id="p2Content">
+    <div class="p2-eyebrow">sebuah surat kecil, untukmu</div>
+
+    <div class="bouquet-wrap" id="bouquetWrap">
+      <div class="bouquet">
+        <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+          <path d="M110 210 C104 160 108 120 110 95" stroke="#8FB86B" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <path d="M110 150 C96 158 84 150 80 158" stroke="#8FB86B" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M110 165 C124 172 136 166 140 174" stroke="#8FB86B" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+          <g>
+            <circle cx="70" cy="92" r="20" fill="#BAED91"/>
+            <circle cx="150" cy="90" r="22" fill="#BAED91"/>
+            <circle cx="110" cy="60" r="24" fill="#F6C9DA"/>
+            <circle cx="72" cy="60" r="19" fill="#F6C9DA"/>
+            <circle cx="148" cy="58" r="19" fill="#F6C9DA"/>
+            <circle cx="110" cy="100" r="22" fill="#FBEAF0"/>
+
+            <circle cx="70" cy="92" r="7" fill="#EACB8E"/>
+            <circle cx="150" cy="90" r="7" fill="#EACB8E"/>
+            <circle cx="110" cy="60" r="8" fill="#EACB8E"/>
+            <circle cx="72" cy="60" r="6" fill="#EACB8E"/>
+            <circle cx="148" cy="58" r="6" fill="#EACB8E"/>
+            <circle cx="110" cy="100" r="7" fill="#EACB8E"/>
+          </g>
+
+          <path d="M96 178 Q110 190 124 178 L120 205 Q110 212 100 205 Z" fill="#D98FAE"/>
+        </svg>
+      </div>
+    </div>
+
+    <h1 class="p2-title">Selamat ulang tahun,<br><span class="name" id="nameSlot">Sayang</span>.</h1>
+
+    <div class="letter" id="letterBody"></div>
+
+    <div class="p2-signoff" id="signoffBlock">
+      <div class="closing" id="closingSlot">Yang selalu bersyukur memilikimu,</div>
+      <div class="name-final" id="senderSlot">— aku</div>
+    </div>
+
+    <a href="#page1" class="back-link" id="backLink">↳ jalan-jalan lagi ke halaman awal</a>
+  </div>
+
+  <button class="music-btn" id="musicBtn" aria-label="Musik">
+    <div class="ring"></div>
+    <svg id="musicIconPlay" viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7z" fill="#D98FAE"/></svg>
+    <svg id="musicIconPause" viewBox="0 0 24 24" fill="none" style="display:none"><rect x="6" y="5" width="4" height="14" fill="#D98FAE"/><rect x="14" y="5" width="4" height="14" fill="#D98FAE"/></svg>
+  </button>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
