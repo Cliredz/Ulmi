@@ -15,12 +15,12 @@ const CONFIG = {
     "SEMANGATT SEMANGATT TERUSS LYAYUU YANG LAGI ULTAH HARI INI YEE🤭🤭"
   ],
   memories: [
-    { src:"Assets/images/ulmi1.jpg", fallback:"Kenangan 01", caption:"awal yang tak kami rencanakan" },
-    { src:"Assets/images/ulmi2.jpg", fallback:"Kenangan 02", caption:"tawa yang masih kuingat suaranya" },
-    { src:"Assets/images/ulmi3.jpg", fallback:"Kenangan 03", caption:"hari biasa yang jadi istimewa" },
-    { src:"Assets/images/ulmi4.jpg", fallback:"Kenangan 04", caption:"perjalanan yang kami tempuh berdua" },
-    { src:"Assets/images/ulmi5.jpg", fallback:"Kenangan 05", caption:"momen kecil yang kusimpan diam-diam" },
-    { src:"Assets/images/ulmi6.jpg", fallback:"Kenangan 06", caption:"dan kami, masih berjalan bersama" }
+    { src:"Assets/images/ulmi1.jpg.jpeg", fallback:"Kenangan 01", caption:"awal yang tak kami rencanakan" },
+    { src:"Assets/images/ulmi2.jpg.jpeg", fallback:"Kenangan 02", caption:"tawa yang masih kuingat suaranya" },
+    { src:"Assets/images/ulmi3.jpg.jpeg", fallback:"Kenangan 03", caption:"hari biasa yang jadi istimewa" },
+    { src:"Assets/images/ulmi4.jpg.jpeg", fallback:"Kenangan 04", caption:"perjalanan yang kami tempuh berdua" },
+    { src:"Assets/images/ulmi5.jpg.jpeg", fallback:"Kenangan 05", caption:"momen kecil yang kusimpan diam-diam" },
+    { src:"Assets/images/ulmi6.jpg.jpeg", fallback:"Kenangan 06", caption:"dan kami, masih berjalan bersama" }
   ],
   gift: {
     line1: "Ada satu hal lagi untukmu.",
